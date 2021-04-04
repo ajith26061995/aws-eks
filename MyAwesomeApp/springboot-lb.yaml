@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-angular-app
-        image: akdevopscoaching/mywebapp:latest
+        image: 098376138507.dkr.ecr.us-west-2.amazonaws.com/demo:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
